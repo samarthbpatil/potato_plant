@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
 # Load the trained model
-model_path = r"C:\Users\samar\potato_plant_disease\model_neural"  # Specify the actual path to your saved model
+model_path = "model_neural"  # Specify the actual path to your saved model
 model = tf.keras.models.load_model(model_path)
 
 # Define the class names
